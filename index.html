@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="./style/style.css" rel="stylesheet">
+        <title>Photo viewer</title>
+    </head>
+    <body>
+      <div id="spinner">
+        <img src="https://timmb.com/wp-content/themes/timmb/js/lightbox/loading_spinner.gif" />
+      </div>
+      <div class="main-container" id="main">
+        <h1>
+          Photo viewer
+        </h1>
+        <div id="pagination" class="pagination-container"></div>
+        <div class="flexbox-container">
+            <div class="card-header">
+              <h2 class="upsideDown">Welcome back!</h2>
+              <ul id="photosList" class="list-group list-group-flash"></ul>
+            </div>
+            <div class="card-header">
+                <div id="imageDisplay"></div>
+            </div>
+        </div>
+   </body>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="./js/main.js"></script>
+</html>
